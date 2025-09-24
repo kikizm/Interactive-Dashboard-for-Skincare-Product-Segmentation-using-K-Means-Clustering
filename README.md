@@ -7,7 +7,7 @@
 **Visualization :** Matplotlib, Seaborn, yellow-brick <br>
 
 
-# 📁 STAGE 1: Problem Statement
+# 📁 STAGE 0 : Problem Statement
 
 ### Introduction
 
@@ -28,3 +28,25 @@ To achieve the stated goal, this project is structured into several key objectiv
 
 4. Provide **business insights** on product distribution and consumer preferences to support marketing strategies and inventory management.
 
+
+## 📂 Workflow  
+
+1. **Raw Data Collection**  
+   - Dataset with 7,637 products and 19 features.  
+   - Attributes: object (16), int64 (41), float64 (65).  
+
+2. **Data Exploration & Cleaning**  
+   - Duplicate check  
+   - Missing value handling  
+   - Value transformation  
+
+3. **Analysis & Visualization**  
+   - Univariate, bivariate, multivariate analysis  
+
+4. **Model Building**  
+   - Feature encoding & selection  
+   - Handling class imbalance  
+   - Model training & evaluation  
+
+5. **Model Deployment**  
+   - Deploy interactive dashboard using Streamlit  
