@@ -29,24 +29,13 @@ To achieve the stated goal, this project is structured into several key objectiv
 4. Provide **business insights** on product distribution and consumer preferences to support marketing strategies and inventory management.
 
 
+
 ## 📂 Workflow  
 
-1. **Raw Data Collection**  
-   - Dataset with 7,637 products and 19 features.  
-   - Attributes: object (16), int64 (41), float64 (65).  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5fb107a9-1c3f-4492-b840-399b2a2c0332" alt="Workflow Skincare" width="900"/>
+</p>
 
-2. **Data Exploration & Cleaning**  
-   - Duplicate check  
-   - Missing value handling  
-   - Value transformation  
+<p align="center"><b>Figure 1 — Workflow of Model Development</b></p>
 
-3. **Analysis & Visualization**  
-   - Univariate, bivariate, multivariate analysis  
 
-4. **Model Building**  
-   - Feature encoding & selection  
-   - Handling class imbalance  
-   - Model training & evaluation  
-
-5. **Model Deployment**  
-   - Deploy interactive dashboard using Streamlit  
