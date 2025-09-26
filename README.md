@@ -59,7 +59,8 @@ Table 1 – Feature Description
 ### Data Quality Assesment
 <br>
 Table 2 — Data Quality Assessment Results
-<br>
+
+
 | Data Assessment     | Finding                                                                  | Handling                                                       |
 |---------------------|---------------------------------------------------------------------------|----------------------------------------------------------------|
 | Missing values      | Some missing values found in `price_by_combination` and `average_rating` | Imputed using **median** for numeric, **mode** for categorical |
