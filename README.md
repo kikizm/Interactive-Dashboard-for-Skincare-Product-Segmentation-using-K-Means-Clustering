@@ -78,7 +78,7 @@ Table 2 — Data Quality Assessment Results
 The boxplot illustrates the distribution of skincare product prices, showing that the data is **highly right-skewed**. Most skincare products are concentrated in the lower price range, particularly between **IDR 50,000 and IDR 500,000**, while only a small number of products are priced significantly higher. The presence of numerous **outliers** is clearly visible, with certain items reaching prices above **IDR 1,000,000** and even up to IDR **3,000,000**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5b510a98-1587-4e7d-bb17-2349f0b2e62c" alt="Workflow Skincare" width="400"/>
+  <img src="https://github.com/user-attachments/assets/5b510a98-1587-4e7d-bb17-2349f0b2e62c" alt="Workflow Skincare" width="500"/>
 </p>
 
 <p align="center"><b>Figure 2 — Skincare Product Price Boxplot</b></p>
@@ -93,7 +93,7 @@ The correlation heatmap provides an overview of the statistical relationships am
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/790be001-dddc-44c1-ae27-35e3d0927b08" alt="Workflow Skincare" width="400"/>
+  <img src="https://github.com/user-attachments/assets/790be001-dddc-44c1-ae27-35e3d0927b08" alt="Workflow Skincare" width="500"/>
 </p>
 
 <p align="center"><b>Figure 3 — Correlation Between Variables</b></p>
@@ -104,3 +104,49 @@ From a data perspective, this weak correlation is important because it justifies
 <br>
 
 ## 📂 STAGE 2: Data Pre-processing
+
+Missing Values per Feature
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecc3d892-1ee1-4011-a64d-6495c0925fdb" alt="Workflow Skincare" width="500"/>
+</p>
+
+<p align="center"><b>Figure 4 — Missing Values per Feature</b></p>
+
+<br>
+
+## 📂 STAGE 3: Visualization and Model Building
+
+**Brands Analysis**
+
+The first chart shows the distribution of top brands within Cluster 1, which is primarily composed of affordable skincare products with relatively consistent characteristics. Among these brands, COSRX dominates the cluster with the highest frequency, followed by Etude and Nacific. Other brands such as Dear Klairs, Beautyblender, and The Body Shop also appear in notable counts. This distribution indicates that Cluster 1 represents a mix of K-beauty brands and established global names that are positioned in the affordable to mid-range segment. From a business perspective, brands in this cluster compete heavily on accessibility and variety. Companies targeting this segment can leverage competitive pricing strategies, product bundling, and strong distribution channels to maintain market share.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/855b5d18-ff4a-4823-b418-459970255faa" alt="Workflow Skincare" width="600"/>
+</p>
+
+<p align="center"><b>Figure 5 — Top brands identified 1</b></p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4bcc4379-a4d5-4c44-b77f-6826b6753181" alt="Workflow Skincare" width="600"/>
+</p>
+
+<p align="center"><b>Figure 6 — Top brands identified 2</b></p>
+
+The second chart highlights the top brands within Cluster 2, which contains a broader spread of product types with higher variability in attributes. The most dominant brands in this cluster are Jacquelle and Eze-nails, followed by Etude, Holika Holika, and You Beauty. International and local brands coexist here, with strong representation from Scarlett Whitening and The Body Shop, suggesting this cluster captures a diverse consumer base. From a business perspective, Cluster 2 represents a more mixed-market environment, where both niche and mainstream brands compete. This suggests that companies operating in this segment need to differentiate through brand identity, innovation, and targeted campaigns rather than relying solely on price. The diversity of brands also reflects consumer openness to experiment with both local and international products in this category.
+
+<br>
+
+**Determining Optimal Number of Clusters with Elbow Method**
+
+The Elbow Method was applied to identify the optimal number of clusters (k) for K-Means clustering. The chart above plots the distortion score (sum of squared distances from each point to its assigned cluster center) against the number of clusters. As the number of clusters increases, the distortion score decreases, but the rate of improvement slows down after a certain point. From the chart, the “elbow point” is observed at k = 4, where the distortion score drops significantly before the curve starts to flatten. This suggests that segmenting the skincare products into four clusters strikes a balance between underfitting (too few clusters) and overfitting (too many clusters).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/909cc6a1-ce37-4479-9daf-4e9897cd05da" alt="Workflow Skincare" width="600"/>
+</p>
+
+<p align="center"><b>Figure 7 — Elbow Method</b></p>
+
+Identifying four distinct clusters provides a practical segmentation of the skincare product market. Each cluster potentially represents unique product groups, such as affordable mass-market products, mid-range brands, premium selections, and niche items. Using this segmentation, businesses can tailor their strategies for pricing, promotions, and brand positioning to better target the needs of different customer groups.
+
+
