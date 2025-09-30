@@ -6,6 +6,25 @@
 **Libraries :** Pandas, NumPy, sklearn <br>
 **Visualization :** Matplotlib, Seaborn, yellow-brick <br>
 
+### Table of Contents
+- [STAGE 0 Problem Statement](#stage-0-problem-statement)
+  - [Introduction](#introduction)
+  - [Goal](#goal)
+  - [Objective](#objective)
+  - [Workflow](#workflow)
+- [STAGE 1 Exploratory Data Analysis](#stage-1-exploratory-data-analysis)
+  - [Data Overview](#data-overview)
+  - [Data Quality Assesment](#data-quality-assesment)
+  - [Data Exploration](#data-exploration)
+- [STAGE 2 Data Pre-processing](#stage-2-data-pre-processing)
+- [STAGE 3 Visualization and Model Building](#stage-3-visualization-and-model-building)
+  - [Brands Analysis](#brands-analysis)
+  - [Determining Optimal Number of Clusters with Elbow Method](#determining-optimal-number-of-clusters-with-elbow-method)
+  - [Data Exploration](#data-exploration)
+- [Model Simulation using Streamlit](#model-simulation-using-streamlit)
+- [Recommendations](#recommendations)
+-----
+
 
 ## 📁 STAGE 0 : Problem Statement
 
@@ -150,3 +169,24 @@ The Elbow Method was applied to identify the optimal number of clusters (k) for 
 Identifying four distinct clusters provides a practical segmentation of the skincare product market. Each cluster potentially represents unique product groups, such as affordable mass-market products, mid-range brands, premium selections, and niche items. Using this segmentation, businesses can tailor their strategies for pricing, promotions, and brand positioning to better target the needs of different customer groups.
 
 
+## 📂 Model Simulation using Streamlit
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/63420ee3-5ce5-494a-a967-ed4920550efe" alt="Workflow Skincare" width="800"/>
+</p>
+
+<p align="center"><b>Figure 8 — Screenshot Part 1</b></p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/decb1847-11fe-4dce-a5ab-110e23543627" alt="Workflow Skincare" width="800"/>
+</p>
+
+<p align="center"><b>Figure 9 — Screenshot Part 2</b></p>
+
+<br>
+
+## 📂 Recommendations
+
+The clustering analysis segmented skincare products into four distinct groups, each with unique characteristics and business implications. The first cluster represents mass market products, typically affordable items with high review counts, dominated by popular K-beauty and global brands. For this segment, businesses should focus on competitive pricing strategies, bundle promotions, and flash sales while expanding distribution through online marketplaces to attract price-sensitive consumers. The second cluster corresponds to mid-range popular brands, which show a balance between price and rating with relatively consistent demand and strong brand loyalty. To strengthen this position, loyalty programs such as membership benefits or cashback, combined with influencer campaigns involving mid-tier key opinion leaders (KOLs), can help maintain consumer trust and drive higher engagement. The third cluster highlights premium and niche products, which tend to have higher prices, fewer reviews, but strong ratings that reflect exclusivity and luxury positioning. For this group, companies should emphasize exclusive branding and storytelling to communicate premium value, targeting affluent customers through tailored campaigns such as beauty events and exclusive online or offline promotions. The fourth cluster captures a mixed or experimental segment, composed of diverse local and international brands with moderate performance. This segment is best approached through differentiation strategies, including continuous innovation, new product launches, and targeted campaigns to appeal to consumers who are open to trying a mix of local and global products.
+
+This segmentation allows companies to adopt a multi-segment strategy, balancing volume sales from affordable products, building long-term loyalty in the mid-range, and securing niche profitability through premium offerings. By aligning promotions, pricing, and distribution with the unique profile of each segment, businesses can optimize resource allocation and strengthen their competitive advantage in the skincare market.
